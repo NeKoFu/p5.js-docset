@@ -1,5 +1,5 @@
 # create a docset from p5 data
-import os, re, sqlite3, json, shutil
+import sqlite3, json, shutil
 
 class Database:
 	def __init__(self, dbpath):
